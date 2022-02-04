@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#FFEDEF"
+    tools:context=".TaskViewShowActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/home_bg"
+        android:padding="5dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/dateView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="@color/black" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/nameIDView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dateView2"
+            android:layout_toStartOf="@+id/addTaskButton"
+            android:paddingStart="35sp"
+            android:text="Productive Day, \nRitesh"
+            android:textSize="20sp" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/addTaskButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            android:text="@string/add_task"
+            android:textAllCaps="false"
+            app:icon="@drawable/add_task" />
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/monthView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="February, 2022"
+            android:padding="10sp"
+            android:background="@drawable/bg_blue"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/dateContainer"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_litered"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/taskContainerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CCE5FA"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

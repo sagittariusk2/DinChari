@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">DinChari</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="send_code">Send Code</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="enter_your_phone_number_and_we_ll_send_you_a_six_digit_code_in_sms">Enter your phone number and we\'ll send you a 6-digit code in SMS</string>
+    <string name="login">Login</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="code_will_be_active_for_another_60_seconds">Code will be active for another 60 seconds</string>
+    <string name="name">Name</string>
+    <string name="enter_a_name_for_yourself">Enter a name for yourself</string>
+    <string name="name_your_task">Name your task</string>
+    <string name="choose_date_amp_time"><![CDATA[Choose Date & Time]]></string>
+    <string name="remind_me">Remind me</string>
+    <string name="choose_category">Choose Category</string>
+    <string name="work">Work</string>
+    <string name="personal">Personal</string>
+    <string name="health">Health</string>
+    <string name="add_link">Add Link</string>
+    <string name="repeat">Repeat</string>
+    <string name="schedule_task">Schedule Task</string>
+
+    <string-array name="view">
+        <item>This Day</item>
+        <item>This Week</item>
+        <item>This Month</item>
+        <item>This Year</item>
+    </string-array>
+
+    <string-array name="repeat">
+        <item>:::No-Repeat:::</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <string-array name="dot_colors">
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/red</item>
+        <item>@color/yellow</item>
+    </string-array>
+
+    <string-array name="timer">
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>30 Minutes</item>
+        <item>45 Minutes</item>
+        <item>60 Minutes</item>
+    </string-array>
+
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="add_task">Add Task</string>
+    <string name="today_s_task">Today\'s Task</string>
+    <string name="to_do">To Do</string>
+    <string name="in_progress">In Progress</string>
+    <string name="done">Done</string>
+    <string name="my_tasks">My Tasks</string>
+    <string name="today">Today</string>
+    <string name="date">Date</string>
+    <string name="create_new_task">Create new task</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sagittariusk2.dinchari">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+    <uses-permission android:name="android.permission.SET_ALARM" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_din_chari"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_din_chari"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DinChari">
+        <activity android:name=".LogInSignUp" />
+        <activity android:name=".AddTaskActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TaskViewShowActivity" />
+        <activity android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".AlarmReceiver"
+            android:process=":remote"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+
+</manifest>

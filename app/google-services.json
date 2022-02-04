@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1004712132027",
+    "project_id": "dinchari-6004b",
+    "storage_bucket": "dinchari-6004b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004712132027:android:ba1cdf362c567dae1f989e",
+        "android_client_info": {
+          "package_name": "com.sagittariusk2.dinchari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004712132027-5t64eilngnj8r8fmnjt5re8ahr4o0cse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9ESSvFNRj-0C7qtWJNQhjxbz6am4JLbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004712132027-5t64eilngnj8r8fmnjt5re8ahr4o0cse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

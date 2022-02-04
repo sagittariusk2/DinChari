@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="@drawable/bg_slate">
+
+    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+        android:id="@+id/circularProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:cpb_background_progressbar_color="@color/teal_200"
+        app:cpb_background_progressbar_width="7dp"
+        app:cpb_progress="40"
+        app:cpb_progress_direction="to_right"
+        app:cpb_progressbar_color="@color/white"
+        app:cpb_progressbar_width="6dp"
+        app:cpb_round_border="true" />
+
+    <TextView
+        android:id="@+id/nameGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@+id/circularProgressBar"
+        android:text="January" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40%"
+        android:layout_centerInParent="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+</RelativeLayout>
